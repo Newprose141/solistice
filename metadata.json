@@ -1,0 +1,6 @@
+{
+  "name": "Solstice Roof Systems",
+  "description": "Premium, high-converting roofing contractor website for Edmonton and Central Alberta.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
