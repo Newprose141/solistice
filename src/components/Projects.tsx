@@ -93,7 +93,9 @@ export default function Projects() {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" 
+                  className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="flex flex-col gap-1.5 px-0.5 text-left">

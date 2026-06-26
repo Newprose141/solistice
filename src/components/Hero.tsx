@@ -10,6 +10,9 @@ export default function Hero() {
           src="https://lh3.googleusercontent.com/d/1xwJ39GPRPGqrllPLcG2S3Q9K2CY7CDL2"
           alt="Premium roofing installation in Edmonton Alberta"
           className="w-full h-full object-cover object-center"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-brand-charcoal/80 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal via-transparent to-transparent" />
