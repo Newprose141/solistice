@@ -24,19 +24,13 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-[#1a1a1a] text-white py-2.5 text-center text-xs md:text-sm font-medium border-b border-white/5 z-[60] relative">
-         Special Offer: Get <span className="text-brand-blue font-bold">$250 OFF</span> your next roof replacement! <a href="#contact" className="underline hover:text-brand-blue ml-1 transition-colors">Claim Offer</a>
-      </div>
-
       <header
-        className={`fixed w-full z-50 transition-all duration-300 ${
-          scrolled ? 'top-2 md:top-4 px-4' : 'top-12 md:top-14 px-4'
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+          scrolled ? 'bg-white shadow-md' : 'bg-white/95 backdrop-blur-md border-b border-slate-200/50'
         }`}
       >
-        <div className="max-w-7xl mx-auto">
-          <div className={`flex justify-between items-center px-4 py-3 md:py-2 md:px-6 rounded-full transition-all duration-300 ${
-            scrolled ? 'bg-white shadow-xl' : 'bg-white/95 backdrop-blur-md shadow-lg border border-white/20'
-          }`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-4 transition-all duration-300">
             <a href="#hero" className="flex items-center gap-2 cursor-pointer">
               <div className="w-8 h-8 md:w-10 md:h-10 bg-brand-blue rounded-full flex items-center justify-center text-white font-heading font-bold text-lg md:text-xl leading-none shadow-sm">
                 SR
@@ -85,7 +79,7 @@ export default function Navbar() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="lg:hidden absolute top-[calc(100%+10px)] left-4 right-4 bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-100"
+              className="lg:hidden absolute top-full left-0 w-full bg-white shadow-xl overflow-hidden border-b border-slate-100"
             >
               <div className="px-6 py-6 space-y-4">
                 {navLinks.map((link) => (

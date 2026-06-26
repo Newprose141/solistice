@@ -26,7 +26,7 @@ const trustFactors = [
 
 export default function TrustStrip() {
   return (
-    <section className="relative z-20 -mt-8 sm:-mt-12 lg:-mt-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="relative z-20 -mt-2 sm:-mt-6 lg:-mt-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="bg-white rounded-xl shadow-2xl p-6 md:p-8 border border-slate-100">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 divide-y md:divide-y-0 md:divide-x divide-slate-100">
           {trustFactors.map((factor, idx) => (

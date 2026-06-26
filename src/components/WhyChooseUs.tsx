@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-brand-blue font-bold uppercase tracking-wider text-sm mb-3"
+              className="text-black font-medium underline decoration-1 underline-offset-[6px] decoration-black text-sm mb-4"
             >
               The Solstice Difference
             </motion.h4>
@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl md:text-5xl font-bold text-brand-charcoal mb-6"
+              className="text-4xl md:text-5xl lg:text-[44px] font-semibold text-black tracking-tight leading-[1.1] mb-6"
             >
               Roofing Done Right. <br />No Excuses.
             </motion.h2>
@@ -71,7 +71,7 @@ export default function WhyChooseUs() {
             >
               <a
                 href="#contact"
-                className="inline-flex px-8 py-4 bg-brand-charcoal hover:bg-slate-800 text-white rounded font-bold text-lg transition-colors"
+                className="inline-flex items-center justify-center px-8 py-3 bg-black hover:bg-slate-800 text-white font-medium text-sm transition-colors rounded-sm"
               >
                 Schedule Free Inspection
               </a>

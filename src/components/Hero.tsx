@@ -3,7 +3,7 @@ import { ArrowRight, ShieldCheck, Star } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative h-[100svh] min-h-[700px] flex flex-col justify-center overflow-hidden pt-40 lg:pt-48 pb-16 lg:pb-24">
+    <section id="hero" className="relative min-h-[100svh] flex flex-col justify-start md:justify-center overflow-hidden pt-36 md:pt-40 lg:pt-48 pb-16 lg:pb-24">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal via-transparent to-transparent" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-12 md:mt-0">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-4xl">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}

@@ -1,38 +1,43 @@
 import { motion } from 'motion/react';
 import { MapPin } from 'lucide-react';
+import projectImage1 from '../assets/images/regenerated_image_1782466563286.jpg';
+import projectImage2 from '../assets/images/regenerated_image_1782466578554.jpg';
+import projectImage3 from '../assets/images/regenerated_image_1782466896732.jpg';
+import projectImage4 from '../assets/images/regenerated_image_1782466908004.jpg';
+import projectImage5 from '../assets/images/regenerated_image_1782466909265.jpg';
 
 const projects = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1622473590773-f588134b6ce7?q=80&w=2070&auto=format&fit=crop',
+    image: projectImage1,
     location: 'Greystone Valley',
     title: 'Hillside Ridge Roof Upgrade',
     colSpan: 'md:col-span-6',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356f12?q=80&w=2070&auto=format&fit=crop',
+    image: projectImage2,
     location: 'Maplewood Estate',
     title: 'Summit View Roofing',
     colSpan: 'md:col-span-6',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
+    image: projectImage3,
     location: 'Riverstone District',
     title: 'Modern Shingle Install',
     colSpan: 'md:col-span-4',
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop',
+    image: projectImage4,
     location: 'Oakridge Community',
     title: 'Premium Tile Replacement',
     colSpan: 'md:col-span-4',
   },
   {
     id: 5,
-    image: 'https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=2070&auto=format&fit=crop',
+    image: projectImage5,
     location: 'Pine Haven',
     title: 'Emergency Storm Repair',
     colSpan: 'md:col-span-4',
